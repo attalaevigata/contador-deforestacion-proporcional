@@ -1,5 +1,5 @@
 // script.js
-const areaInicialHa = 59300000; // Área inicial en hectáreas
+const areaInicialHa = 59277461; // Área inicial en hectáreas
 const tasaDeforestacionAnualHa = 123517; // Tasa de deforestación anual en hectáreas
 
 // Porcentajes de deforestación por trimestre
