@@ -1,0 +1,56 @@
+/* styles.css */
+.big-counter {
+    background-image: url('DSC_0434.png'); /* Imagen de fondo */
+    background-size: cover; /* La imagen cubre completamente el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen verticalmente */
+    font-family: Arial, sans-serif; /* Fuente genérica */
+    text-align: center;
+    padding: 40px; /* Aumenta el padding para un contador más grande */
+    border-radius: 10px;
+    color: white; /* Texto en blanco */
+}
+
+.counter-ticker, .counter-title, .counter-subtitle {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para el texto */
+    display: block; /* Cada elemento en su propia línea */
+    margin: 10px auto; /* Centrar y agregar espaciado vertical */
+    padding: 10px 20px; /* Espaciado dentro del fondo del texto */
+    border-radius: 5px; /* Bordes redondeados para el fondo del texto */
+    width: fit-content; /* Ajustar el ancho al contenido */
+}
+
+.counter-ticker {
+    font-size: 96px; /* Tamaño más grande para el número del contador */
+}
+
+.counter-title {
+    font-size: 48px; /* Tamaño más grande para el título */
+}
+
+.counter-subtitle {
+    font-size: 32px; /* Tamaño más grande para el subtítulo */
+}
+
+.button {
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 20px; /* Aumenta el tamaño del botón */
+    margin: 5px;
+    text-decoration: none;
+    display: inline-block;
+    background: transparent;
+}
+
+.button.is-outlined {
+    background: transparent;
+}
+
+.button.is-small {
+    font-size: 18px; /* Tamaño más grande para el texto del botón */
+}
+
+.is-rounded {
+    border-radius: 20px;
+}
